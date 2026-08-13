@@ -1,35 +1,33 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Steven Scoville",
+    "label": "Software Developer | IT Student",
+    "picture": "https://github.com/s-scoville.png",
+    "email": "s.scoville.dev@outlook.com",
+    "phone": "608-217-8096",
+    "website": "https://s-scoville.github.io",
+    "summary": "I am an Information Technology student at Sullivan University with a focus on software development. I enjoy building practical applications in C# and Java and am especially interested in backend and full-stack development. I expect to graduate in June 2027.",
+    "location": { "address": "", "postalCode": "40143", "city": "Hardinsburg", "countryCode": "USA", "region": "Kentucky" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "s-scoville", "url": "http://github.com/s-scoville" },
+      { "network": "linkedin", "username": "stevenscoville", "url": "https://www.linkedin.com/in/steven-scoville-2288701a3/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Software Engineering" },
+    { "name": "Backend Development" },
+    { "name": "Web Application Development" },
+    { "name": "Object-Oriented Programming" },
+    { "name": "Software Design and Architecture" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C#", "Java", "Javascript", "HTML", "CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Git/GitHub", "Visual Studio", "VS Code" ]
     }
   ],
   "education": [
