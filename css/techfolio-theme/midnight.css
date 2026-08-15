@@ -1,0 +1,172 @@
+/* Midnight Theme: dark slate backgrounds with modern blue accents. */
+
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700|Source+Code+Pro:300,400,500,700");
+
+:root {
+  /* Typography */
+  --bs-font-sans-serif: "Inter", sans-serif;
+
+  /* Core palette */
+  --tf-dark-1: #0f172a;
+  --tf-dark-2: #111827;
+  --tf-dark-3: #1e293b;
+  --tf-dark-4: #334155;
+
+  --tf-text: #e5e7eb;
+  --tf-text-muted: #94a3b8;
+
+  --tf-blue-1: #38bdf8;
+  --tf-blue-2: #60a5fa;
+  --tf-blue-3: #2563eb;
+
+  /* Bootstrap overrides */
+  --bs-body-bg: var(--tf-dark-1);
+  --bs-body-color: var(--tf-text);
+  --bs-link-color: var(--tf-blue-1);
+  --bs-link-hover-color: var(--tf-blue-2);
+  --bs-border-color: var(--tf-dark-4);
+
+  /* TechFolio variables */
+  --tf-pill-bg: var(--tf-dark-4);
+  --tf-icon-fill: var(--tf-blue-1);
+  --tf-icon-hover: var(--tf-blue-2);
+  --tf-page-bg-color: var(--tf-dark-1);
+  --tf-footer-bg-color: var(--tf-dark-2);
+  --tf-projects-bg-color: var(--tf-dark-2);
+}
+
+/* Main page */
+body {
+  background-color: var(--tf-page-bg-color);
+  color: var(--tf-text);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: var(--tf-blue-1);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--tf-blue-2);
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--tf-dark-2) !important;
+  border-bottom: 1px solid var(--tf-dark-4);
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #f8fafc;
+}
+
+.nav-link {
+  color: var(--tf-text-muted);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--tf-blue-1);
+}
+
+/* Cards */
+.card {
+  background-color: var(--tf-dark-2);
+  color: var(--tf-text);
+  border: 1px solid var(--tf-dark-4);
+}
+
+.card-title {
+  color: #f8fafc;
+}
+
+.card-text {
+  color: var(--tf-text);
+}
+
+.card-footer {
+  background-color: var(--tf-dark-2);
+  border-top: 1px solid var(--tf-dark-4);
+}
+
+/* Muted Bootstrap text */
+.text-muted {
+  color: var(--tf-text-muted) !important;
+}
+
+/* Pills / badges */
+.badge,
+.tf-pill {
+  background-color: var(--tf-dark-4);
+  color: #e0f2fe;
+}
+
+/* Social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+  transition: 0.2s;
+}
+
+.tf-social:hover {
+  fill: var(--tf-icon-hover);
+}
+
+/* Profile image */
+.rounded-circle {
+  border: 2px solid var(--tf-blue-1);
+}
+
+/* Horizontal rules */
+hr {
+  border-color: var(--tf-dark-4);
+  opacity: 1;
+}
+
+/* Code */
+code {
+  color: #7dd3fc;
+}
+
+pre {
+  background-color: #020617;
+  color: #e2e8f0;
+  border: 1px solid var(--tf-dark-4);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* Tables */
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--tf-text);
+  --bs-table-border-color: var(--tf-dark-4);
+}
+
+/* Mobile navigation */
+@media (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-brand-mobile {
+    display: inline;
+  }
+}
