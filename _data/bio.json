@@ -9,7 +9,7 @@
     "summary": "I am an Information Technology student at Sullivan University with a focus on software development. I enjoy building practical applications in C# and Java and am especially interested in backend and full-stack development. I expect to graduate in June 2027.",
     "location": { "address": "", "postalCode": "40143", "city": "Hardinsburg", "countryCode": "USA", "region": "Kentucky" },
     "profiles": [
-      { "network": "github", "username": "s-scoville", "url": "http://github.com/s-scoville" },
+      { "network": "github", "username": "s-scoville", "url": "https://github.com/s-scoville" },
       { "network": "linkedin", "username": "stevenscoville", "url": "https://www.linkedin.com/in/steven-scoville-2288701a3/" }
     ]
   },
@@ -22,95 +22,135 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C#", "Java", "Javascript", "HTML", "CSS" ]
+      "name": "Languages",
+      "keywords": [
+        "C#",
+        "Java",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub", "Visual Studio", "VS Code" ]
+      "name": "Frameworks and Technologies",
+      "keywords": [
+        ".NET",
+        "WinForms",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Developer Tools",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Visual Studio",
+        "VS Code"
+      ]
+    },
+    {
+      "name": "Development Concepts",
+      "keywords": [
+        "Object-Oriented Programming",
+        "SDLC",
+        "Event-Driven Programming",
+        "Debugging",
+        "Version Control",
+        "Software Testing",
+        "Separation of Concerns",
+        "Data Structures"
+      ]
+    },
+    {
+      "name": "Data",
+      "keywords": [
+        "Relational Database Fundamentals",
+        "File-Based Data Storage"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "Sullivan University",
+      "area": "Information Technology",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "startDate": "2024-09-23",
+      "endDate": "2027-06-13",
       "courses": [
+        "Object-Oriented Programming",
+        "Java Programming",
+        "Visual Programming",
+        "Principles of System Design",
+        "Database Design",
+        "Web Design",
+        "Intermediate Website Design",
+        "Introduction to Programming",
+        "Computer Network Fundamentals",
+        "Computer Security Fundamentals"
       ]
+    },
+    {
+      "institution": "Keiser University",
+      "area": "Criminal Justice",
+      "studyType": "Associate Degree",
+      "startDate": "2014-05-01",
+      "endDate": "2016-03-01",
+      "courses": []
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "MPI Protective Service",
+      "position": "Security Officer",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2022-05-01",
+      "endDate": "2023-10-01",
+      "summary": "Roving patrol officer responsible for monitoring multiple client properties and responding to security concerns.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Conducted roving patrols across multiple client properties to identify and respond to security concerns",
+        "Responded to trouble calls and incidents throughout an assigned patrol route",
+        "Performed periodic checks of on-site security officers and client locations",
+        "Documented patrol activity and incidents while maintaining accountability across assigned properties"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Stoughton Trailers",
+      "position": "Logistics Dispatcher",
+      "website": "",
+      "startDate": "2021-07-01",
+      "endDate": "2022-05-01",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Maintained accurate trailer location and asset tracking logs using internal systems and spreadsheets",
+        "Coordinated assignments between drivers, yard operations, and dispatch schedules to optimize workflow efficiency",
+        "Identified and corrected data discrepancies, improving reliability of operational reporting"
       ]
     },
     {
-      "organization": "",
+      "company": "Multiple Organizations",
+      "position": "Security Officer / Supervisor",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2013-07-01",
+      "endDate": "2020-03-01",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Authored detailed incident reports and maintained procedural documentation with high accuracy standards",
+        "Trained and mentored new personnel on operational procedures and compliance expectations",
+        "Demonstrated strong situational awareness, accountability, and decision-making under pressure"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
+      "company": "U.S. Army",
+      "position": "Military Police",
+      "website": "",
+      "startDate": "2009-08-01",
+      "endDate": "2013-07-01",
+      "summary": "",
+      "highlights": [
+        "Enforced safety, security, and operational procedures in high-responsibility environments",
+        "Developed discipline, teamwork, leadership, and consistent execution under structured protocols"
+      ]
     }
   ]
 }
