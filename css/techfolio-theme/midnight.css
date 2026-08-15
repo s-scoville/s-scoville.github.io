@@ -160,6 +160,30 @@ pre {
   --bs-table-border-color: var(--tf-dark-4);
 }
 
+/* Outline buttons used by project and essay cards */
+.btn-outline-dark {
+  color: var(--tf-blue-1);
+  border-color: var(--tf-blue-1);
+  background-color: transparent;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active {
+  color: var(--tf-dark-1);
+  background-color: var(--tf-blue-1);
+  border-color: var(--tf-blue-1);
+}
+
+.btn-outline-dark:focus {
+  box-shadow: 0 0 0 0.2rem rgba(56, 189, 248, 0.25);
+}
+
+footer.navbar {
+  background-color: var(--tf-footer-bg-color) !important;
+  border-color: var(--tf-dark-4) !important;
+}
+
 /* Mobile navigation */
 @media (max-width: 500px) {
   .navbar-brand {
