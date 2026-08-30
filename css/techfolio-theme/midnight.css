@@ -1,6 +1,6 @@
 /* Midnight Theme: dark slate backgrounds with modern blue accents. */
 
-@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
 :root {
   /* Typography */
@@ -56,8 +56,28 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Space Grotesk", sans-serif;
   color: #f8fafc;
   font-weight: 600;
+}
+
+#projects h1,
+#essays h1 {
+  font-variant: small-caps;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--tf-blue-1);
+}
+
+#projects h1::after,
+#essays h1::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 2px;
+  margin-top: 0.4rem;
+  background-color: var(--tf-blue-1);
 }
 
 /* Links */
@@ -99,7 +119,9 @@ a:hover {
 }
 
 .card-title {
+  font-family: "Space Grotesk", sans-serif;
   color: #f8fafc;
+  font-weight: 700;
 }
 
 .card-text {
